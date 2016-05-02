@@ -1,9 +1,9 @@
 <?php
 
 $servername = "localhost";
-$username = "popcorn";
-$password = "melvin99!";
-$dbname = "professional_test123";
+$username = "********";
+$password = "**************";
+$dbname = "************";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -12,7 +12,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 else 
-$ppppath = "/home/professional/www/dan/myFiles";
+$ppppath = "/home/***********/www/dan/myFiles";
 processDir($ppppath,$conn);
 
 function processDir($path,$connin)
